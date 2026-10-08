@@ -3,15 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Amal Thomas — Space × AI × Data</title>
-  <meta name="description" content="Amal Thomas — a +2 Science student building toward Space AI and Data Science.">
+
+  <meta
+    name="description"
+    content="Amal Thomas — a +2 Science student building toward Space AI and Data Science."
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
   <div class="stars"></div>
 
+  <!-- ================= NAVIGATION ================= -->
+
   <header class="nav">
-    <a class="brand" href="#home"><span class="brand-orbit">◉</span> AMAL THOMAS</a>
+
+    <a class="brand" href="#home">
+      <span class="brand-orbit">◉</span> AMAL THOMAS
+    </a>
+
     <nav>
       <a class="active" href="#home">Home</a>
       <a href="#about">About</a>
@@ -21,204 +35,850 @@
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
-    <button class="theme-dot" id="themeToggle" aria-label="Toggle glow">☾</button>
+
+    <button
+      class="theme-dot"
+      id="themeToggle"
+      aria-label="Toggle glow"
+    >
+      ☾
+    </button>
+
   </header>
 
+
   <main>
+
+    <!-- ================= HERO ================= -->
+
     <section class="hero section" id="home">
+
       <div class="hero-orbit-wrap" id="orbitScene">
+
         <div class="orbit orbit-a"></div>
         <div class="orbit orbit-b"></div>
         <div class="orbit orbit-c"></div>
+
         <div class="planet planet-main"></div>
-        <button class="orbit-moon moon-one" data-orbit="Amal Thomas">✦</button>
+
+        <button
+          class="orbit-moon moon-one"
+          data-orbit="Amal Thomas"
+        >
+          ✦
+        </button>
+
         <div class="profile-frame">
-          <img src=".images/WhatsApp Image 2026-09-11 at 23.09.08.jpeg"" alt="Amal Thomas profile photo"
-                onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
-          <div class="profile-fallback">Amal</div>
+
+          <img
+            src="images/WhatsApp Image 2026-09-11 at 23.09.08.jpeg"
+            alt="Amal Thomas profile photo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+          >
+
+          <div class="profile-fallback">
+            Amal
+          </div>
+
         </div>
-        <div class="orbit-tip" id="orbitTip"> Amal Thomas </div>
+
+        <div class="orbit-tip" id="orbitTip">
+          Amal Thomas
+        </div>
+
       </div>
+
 
       <div class="hero-copy">
+
         <p class="eyebrow">HI, I'M</p>
-        <h1>AMAL <span>THOMAS</span></h1>
-        <h2>SPACE × AI × DATA</h2>
-        <p class="lead">I'm a +2 Science student passionate about Mathematics, Physics, Chemistry, AI and space science. My long-term goal is to become a Space AI &amp; Data Scientist and work on intelligent systems for space exploration and research.</p>
+
+        <h1>
+          AMAL <span>THOMAS</span>
+        </h1>
+
+        <h2>
+          SPACE × AI × DATA
+        </h2>
+
+        <p class="lead">
+          I'm a +2 Science student passionate about Mathematics, Physics,
+          Chemistry, AI and space science. My long-term goal is to become
+          a Space AI &amp; Data Scientist and work on intelligent systems
+          for space exploration and research.
+        </p>
+
         <div class="buttons">
-          <a class="btn primary" href="#projects">Explore My Projects →</a>
-          <a class="btn" href="#roadmap">My Journey ↗</a>
+
+          <a class="btn primary" href="#projects">
+            Explore My Projects →
+          </a>
+
+          <a class="btn" href="#roadmap">
+            My Journey ↗
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= ABOUT ================= -->
 
     <section class="section" id="about">
-      <div class="section-label">01 / ABOUT</div>
+
+      <div class="section-label">
+        01 / ABOUT
+      </div>
+
       <div class="about-grid">
+
         <div>
-          <h2>Curiosity is my<br><span>starting point.</span></h2>
+          <h2>
+            Curiosity is my<br>
+            <span>starting point.</span>
+          </h2>
         </div>
-        <p>I’m currently in +2 Science and building the foundation for a future in AI, data and space science. I enjoy turning ideas into projects and learning through real challenges.</p>
+
+        <p>
+          I’m currently in +2 Science and building the foundation
+          for a future in AI, data and space science. I enjoy turning
+          ideas into projects and learning through real challenges.
+        </p>
+
       </div>
+
     </section>
 
-    <!-- SECTION 02: ACHIEVEMENTS (Rotational Carousel restored + Horizontal Certificates below) -->
-    <section class="section achievements" id="achievements">
-      <div class="section-label">02 / ACHIEVEMENTS</div>
-      <h2>NASA <span>Space Apps</span> Journey</h2>
-      <p class="section-intro">Three consecutive years of local-level achievement and recognition in the NASA Space Apps Challenge (2023, 2024, 2025).</p>
 
-      <!-- 3D Rotational Carousel -->
-<div class="carousel" id="achievementCarousel">
-  <button class="carousel-btn prev" id="prevBtn" aria-label="Previous achievement">‹</button>
-  <div class="carousel-stage">
-    
-    <!-- 1. 2025 (Center / Active) -->
-    <article class="achievement-card active-card" data-index="0">
-      <div class="card-image"><img src=".images/WhatsApp Image 2026-09-11 at 19.13.41.jpeg" alt="2025 Achievement"></div>
-      <div class="card-year">2025</div>
-      <h3>Second Position &amp; Art/Tech</h3>
-      <p>Junior Category · ExoGuide</p>
-      <small>Local level · Amal Jyothi College of Engineering</small>
-    </article>
+    <!-- ================= ACHIEVEMENTS ================= -->
 
-    <!-- 2. 2024 (Right Side) -->
-    <article class="achievement-card right" data-index="1">
-      <div class="card-image"><img src=".images/2024-nasa space apps challenge.jpeg" alt="2024 Achievement"></div>
-      <div class="card-year">2024</div>
-      <h3>Galactic Problem Solver</h3>
-      <p>Award Winner</p>
-      <small>Local level · NASA Space Apps</small>
-    </article>
+    <section
+      class="section achievements"
+      id="achievements"
+    >
 
-    <!-- 3. 2023 (Left Side) -->
-    <article class="achievement-card left" data-index="2">
-      <div class="card-image"><img src=".images/2023-nasa-space-apps.jpg" alt="2023 Achievement"></div>
-      <div class="card-year">2023</div>
-      <h3>Best Use of AI Tools</h3>
-      <p>Galactic Awards · Junior Category</p>
-      <small>Local level · Jyothi Engineering College</small>
-    </article>
+      <div class="section-label">
+        02 / ACHIEVEMENTS
+      </div>
 
-  </div>
-  <button class="carousel-btn next" id="nextBtn" aria-label="Next achievement">›</button>
-</div>
+      <h2>
+        NASA <span>Space Apps</span> Journey
+      </h2>
 
-<!-- Indicator Dots (First dot active for 2025) -->
-<div class="dots">
-  <button class="dot active" aria-label="Slide 1 (2025)"></button>
-  <button class="dot" aria-label="Slide 2 (2024)"></button>
-  <button class="dot" aria-label="Slide 3 (2023)"></button>
-</div>
+      <p class="section-intro">
+        Three consecutive years of local-level achievement and
+        recognition in the NASA Space Apps Challenge
+        (2023, 2024, 2025).
+      </p>
 
-      <!-- Horizontal Certificates Row -->
+
+      <!-- 3D ROTATIONAL CAROUSEL -->
+
+      <div
+        class="carousel"
+        id="achievementCarousel"
+      >
+
+        <button
+          class="carousel-btn prev"
+          id="prevBtn"
+          aria-label="Previous achievement"
+        >
+          ‹
+        </button>
+
+
+        <div class="carousel-stage">
+
+
+          <!-- 2025 -->
+
+          <article
+            class="achievement-card active-card"
+            data-index="0"
+          >
+
+            <div class="card-image">
+
+              <img
+                src="images/WhatsApp Image 2026-09-11 at 19.13.41.jpeg"
+                alt="2025 Achievement"
+              >
+
+            </div>
+
+            <div class="card-year">
+              2025
+            </div>
+
+            <h3>
+              Second Position &amp; Art/Tech
+            </h3>
+
+            <p>
+              Junior Category · ExoGuide
+            </p>
+
+            <small>
+              Local level · Amal Jyothi College of Engineering
+            </small>
+
+          </article>
+
+
+          <!-- 2024 -->
+
+          <article
+            class="achievement-card right"
+            data-index="1"
+          >
+
+            <div class="card-image">
+
+              <img
+                src="images/2024-nasa space apps challenge.jpeg"
+                alt="2024 Achievement"
+              >
+
+            </div>
+
+            <div class="card-year">
+              2024
+            </div>
+
+            <h3>
+              Galactic Problem Solver
+            </h3>
+
+            <p>
+              Award Winner
+            </p>
+
+            <small>
+              Local level · NASA Space Apps
+            </small>
+
+          </article>
+
+
+          <!-- 2023 -->
+
+          <article
+            class="achievement-card left"
+            data-index="2"
+          >
+
+            <div class="card-image">
+
+              <img
+                src="images/2023-nasa-space-apps.jpg"
+                alt="2023 Achievement"
+              >
+
+            </div>
+
+            <div class="card-year">
+              2023
+            </div>
+
+            <h3>
+              Best Use of AI Tools
+            </h3>
+
+            <p>
+              Galactic Awards · Junior Category
+            </p>
+
+            <small>
+              Local level · Jyothi Engineering College
+            </small>
+
+          </article>
+
+        </div>
+
+
+        <button
+          class="carousel-btn next"
+          id="nextBtn"
+          aria-label="Next achievement"
+        >
+          ›
+        </button>
+
+      </div>
+
+
+      <!-- INDICATOR DOTS -->
+
+      <div class="dots">
+
+        <button
+          class="dot active"
+          aria-label="Slide 1 (2025)"
+        ></button>
+
+        <button
+          class="dot"
+          aria-label="Slide 2 (2024)"
+        ></button>
+
+        <button
+          class="dot"
+          aria-label="Slide 3 (2023)"
+        ></button>
+
+      </div>
+
+
+      <!-- CERTIFICATES -->
+
       <div class="achievement-certificates">
-        <article class="certificate-card">
-          <div class="certificate-image"><img src=".images/2025-second-position.jpg" alt="2025 NASA Space Apps Second Position certificate"></div>
-          <div class="certificate-copy">
-            <span>2025 · CERTIFICATE & PLAQUE</span>
-            <h3>First Runner-Up Position — Junior Category</h3>
-            <p>This certificate recognizes my <strong>first runner-up position in the Junior Category</strong> at the NASA Space Apps Challenge 2025, held at Amal Jyothi College of Engineering (Autonomous) on October 4–5, 2025.</p>
-            <small>Local-level achievement · Team Alone · ExoGuide</small>
-          </div>
-        </article>
+
+
+        <!-- 2025 FIRST RUNNER-UP -->
 
         <article class="certificate-card">
-          <div class="certificate-image"><img src=".images/2025-art-technology-certificate.jpg" alt="2025 NASA Space Apps Art and Technology certificate"></div>
-          <div class="certificate-copy">
-            <span>2025 · SPECIAL AWARD</span>
-            <h3>Art &amp; Technology</h3>
-            <p>This certificate recognizes me as a member of the award-winning team for <strong>Art and Technology</strong> in the Junior Category at the NASA Space Apps Challenge 2025.</p>
-            <small>Local-level achievement · Team Alone · ExoGuide</small>
+
+          <div class="certificate-image">
+
+            <img
+              src="images/2025-second-position.jpg"
+              alt="2025 NASA Space Apps Second Position certificate"
+            >
+
           </div>
+
+
+          <div class="certificate-copy">
+
+            <span>
+              2025 · CERTIFICATE &amp; PLAQUE
+            </span>
+
+            <h3>
+              First Runner-Up Position — Junior Category
+            </h3>
+
+            <p>
+              This certificate recognizes my
+              <strong>
+                first runner-up position in the Junior Category
+              </strong>
+              at the NASA Space Apps Challenge 2025,
+              held at Amal Jyothi College of Engineering
+              (Autonomous) on October 4–5, 2025.
+            </p>
+
+            <small>
+              Local-level achievement · Team Alone · ExoGuide
+            </small>
+
+          </div>
+
         </article>
+
+
+        <!-- 2025 ART & TECHNOLOGY -->
+
+        <article class="certificate-card">
+
+          <div class="certificate-image">
+
+            <img
+              src="images/2025-art-technology-certificate.jpg"
+              alt="2025 NASA Space Apps Art and Technology certificate"
+            >
+
+          </div>
+
+
+          <div class="certificate-copy">
+
+            <span>
+              2025 · SPECIAL AWARD
+            </span>
+
+            <h3>
+              Art &amp; Technology
+            </h3>
+
+            <p>
+              This certificate recognizes me as a member
+              of the award-winning team for
+              <strong>
+                Art and Technology
+              </strong>
+              in the Junior Category at the NASA Space Apps
+              Challenge 2025.
+            </p>
+
+            <small>
+              Local-level achievement · Team Alone · ExoGuide
+            </small>
+
+          </div>
+
+        </article>
+
       </div>
 
-      <p class="certificate-note">These certificates document my 2025 local-level achievements. My NASA Space Apps journey spans three consecutive local-level years: 2023, 2024 and 2025. I did not receive a global nomination.</p>
+
+      <p class="certificate-note">
+
+        These certificates document my 2025 local-level achievements.
+        My NASA Space Apps journey spans three consecutive local-level
+        years: 2023, 2024 and 2025. I did not receive a global nomination.
+
+      </p>
+
     </section>
 
-    <!-- SECTION 03: FEATURED MOMENTS (With Photos Included) -->
-    <section class="section featured-moments" id="featured">
-      <div class="section-label">03 / FEATURED MOMENTS</div>
-      <h2>Some of my <span>high moments.</span></h2>
-      <p class="section-intro">A few milestones that made my journey in space, AI and technology especially memorable.</p>
+
+    <!-- ================= FEATURED MOMENTS ================= -->
+
+    <section
+      class="section featured-moments"
+      id="featured"
+    >
+
+      <div class="section-label">
+        03 / FEATURED MOMENTS
+      </div>
+
+      <h2>
+        Some of my <span>high moments.</span>
+      </h2>
+
+      <p class="section-intro">
+        A few milestones that made my journey in space,
+        AI and technology especially memorable.
+      </p>
+
 
       <div class="moments-gallery">
+
+
+        <!-- MAIN PHOTO -->
+
         <div class="moment-photo main-photo">
-          <img src=".images/WhatsApp Image 2026-09-11 at 19.13.41 (1).jpeg" alt="Award Ceremony on Stage">
-          <span class="photo-caption">Closing Ceremony & Award Presentation · Amal Jyothi College of Engineering</span>
+
+          <img
+            src="images/WhatsApp Image 2026-09-11 at 19.13.41 (1).jpeg"
+            alt="Award Ceremony on Stage"
+          >
+
+          <span class="photo-caption">
+            Closing Ceremony &amp; Award Presentation ·
+            Amal Jyothi College of Engineering
+          </span>
+
         </div>
+
+
+        <!-- SIDE PHOTO -->
+
         <div class="moment-photo side-photo">
-          <img src=".images/WhatsApp Image 2026-09-11 at 19.13.41.jpeg" alt="Awards Close Up">
-          <span class="photo-caption">1st Runner-Up Plaque & Art & Technology Award Badge</span>
+
+          <img
+            src="images/WhatsApp Image 2026-09-11 at 19.13.41.jpeg"
+            alt="Awards Close Up"
+          >
+
+          <span class="photo-caption">
+            1st Runner-Up Plaque &amp;
+            Art &amp; Technology Award Badge
+          </span>
+
         </div>
+
       </div>
+
+
+      <!-- MOMENT CARDS -->
 
       <div class="moments-grid">
-        <article class="moment-card"><div class="moment-number">01</div><span>2023</span><h3>My first NASA Space Apps recognition</h3><p>Receiving the Best Use of AI Tools recognition at the local level was an early milestone in my journey of combining AI with problem solving.</p></article>
-        <article class="moment-card"><div class="moment-number">02</div><span>2024</span><h3>Galactic Problem Solver</h3><p>Winning the Galactic Problem Solver Award at the local level made my second consecutive NASA Space Apps year another memorable step forward.</p></article>
-        <article class="moment-card"><div class="moment-number">03</div><span>2025</span><h3>Building ExoGuide</h3><p>Creating ExoGuide independently as Team Alone gave me the chance to turn my interest in exoplanets, NASA data and AI into a real project.</p></article>
-        <article class="moment-card"><div class="moment-number">04</div><span>2025</span><h3>Second Position + Art &amp; Technology</h3><p>ExoGuide earned second position in the Junior Category at the local level, together with the Art and Technology special award and a cash prize.</p></article>
-      </div>
-    </section>
 
-    <section class="section" id="projects">
-      <div class="section-label">04 / PROJECTS</div>
-      <div class="project-layout">
-        <div>
-          <h2>Turning curiosity into<br><span>working projects.</span></h2>
-        </div>
-        <article class="project-card">
-          <div class="project-art">✦<br><strong>EXO</strong><br><strong>GUIDE</strong></div>
-          <div class="project-info">
-            <small>NASA SPACE APPS · 2025</small>
-            <h3>ExoGuide</h3>
-            <p>An educational exoplanet exploration platform and AI chatbot concept built around NASA data.</p>
-            <div class="tags"><span>AI</span><span>Data Science</span><span>Exoplanets</span><span>NASA Data</span><span>Web</span></div>
-            <a href="https://amal-thomas-cmd.github.io/Exoguide123/" target="_blank" rel="noopener">Visit ExoGuide →</a>
+
+        <article class="moment-card">
+
+          <div class="moment-number">
+            01
           </div>
+
+          <span>
+            2023
+          </span>
+
+          <h3>
+            My first NASA Space Apps recognition
+          </h3>
+
+          <p>
+            Receiving the Best Use of AI Tools recognition
+            at the local level was an early milestone in my
+            journey of combining AI with problem solving.
+          </p>
+
         </article>
+
+
+        <article class="moment-card">
+
+          <div class="moment-number">
+            02
+          </div>
+
+          <span>
+            2024
+          </span>
+
+          <h3>
+            Galactic Problem Solver
+          </h3>
+
+          <p>
+            Winning the Galactic Problem Solver Award at the
+            local level made my second consecutive NASA Space
+            Apps year another memorable step forward.
+          </p>
+
+        </article>
+
+
+        <article class="moment-card">
+
+          <div class="moment-number">
+            03
+          </div>
+
+          <span>
+            2025
+          </span>
+
+          <h3>
+            Building ExoGuide
+          </h3>
+
+          <p>
+            Creating ExoGuide independently as Team Alone gave
+            me the chance to turn my interest in exoplanets,
+            NASA data and AI into a real project.
+          </p>
+
+        </article>
+
+
+        <article class="moment-card">
+
+          <div class="moment-number">
+            04
+          </div>
+
+          <span>
+            2025
+          </span>
+
+          <h3>
+            Second Position + Art &amp; Technology
+          </h3>
+
+          <p>
+            ExoGuide earned second position in the Junior Category
+            at the local level, together with the Art and Technology
+            special award and a cash prize.
+          </p>
+
+        </article>
+
       </div>
+
     </section>
 
-    <section class="section" id="roadmap">
-      <div class="section-label">05 / MY ROADMAP</div>
-      <h2>From +2 Science<br><span>to Space AI &amp; Data Science.</span></h2>
-      <div class="roadmap">
-        <div class="road-item"><div class="road-icon">⌂</div><small>01 · NOW</small><strong>+2 Science</strong></div>
-        <div class="road-line"></div>
-        <div class="road-item"><div class="road-icon">⌘</div><small>02 · NEXT</small><strong>Engineering + AI</strong></div>
-        <div class="road-line"></div>
-        <div class="road-item"><div class="road-icon">⚛</div><small>03 · FUTURE</small><strong>Research + Projects</strong></div>
-        <div class="road-line"></div>
-        <div class="road-item"><div class="road-icon">🚀</div><small>04 · LONG TERM</small><strong>Space AI &amp; Data Science</strong></div>
-      </div>
-      <p class="road-note">This is a planned academic and career roadmap — not a list of completed stages.</p>
-    </section>
 
-    <section class="section" id="skills">
-      <div class="section-label">06 / SKILLS IN PROGRESS</div>
-      <div class="skills-grid">
-        <div><h2>Learning the tools<br><span>behind the mission.</span></h2></div>
-        <div class="skills">
-          <span>Python</span><span>Machine Learning</span><span>Data Analysis</span><span>AI / LLMs</span>
-          <span>Web Development</span><span>Scientific Data</span><span>Exoplanet Science</span><span>Problem Solving</span>
+    <!-- ================= PROJECTS ================= -->
+
+    <section
+      class="section"
+      id="projects"
+    >
+
+      <div class="section-label">
+        04 / PROJECTS
+      </div>
+
+
+      <div class="project-layout">
+
+        <div>
+
+          <h2>
+            Turning curiosity into<br>
+            <span>working projects.</span>
+          </h2>
+
         </div>
+
+
+        <article class="project-card">
+
+          <div class="project-art">
+            ✦<br>
+            <strong>EXO</strong><br>
+            <strong>GUIDE</strong>
+          </div>
+
+
+          <div class="project-info">
+
+            <small>
+              NASA SPACE APPS · 2025
+            </small>
+
+            <h3>
+              ExoGuide
+            </h3>
+
+            <p>
+              An educational exoplanet exploration platform
+              and AI chatbot concept built around NASA data.
+            </p>
+
+
+            <div class="tags">
+
+              <span>AI</span>
+              <span>Data Science</span>
+              <span>Exoplanets</span>
+              <span>NASA Data</span>
+              <span>Web</span>
+
+            </div>
+
+
+            <a
+              href="https://amal-thomas-cmd.github.io/Exoguide123/"
+              target="_blank"
+              rel="noopener"
+            >
+              Visit ExoGuide →
+            </a>
+
+          </div>
+
+        </article>
+
       </div>
+
     </section>
 
-    <section class="section contact" id="contact">
-      <div class="section-label">07 / CONTACT</div>
-      <h2>Let's build something<br><span>worth exploring.</span></h2>
-      <div class="contact-row">
-        <a href="mailto:your-email@example.com">✉ your-email@example.com</a>
-        <a href="https://github.com/" target="_blank">◉ GitHub</a>
-        <a href="https://www.linkedin.com/" target="_blank">in LinkedIn</a>
+
+    <!-- ================= ROADMAP ================= -->
+
+    <section
+      class="section"
+      id="roadmap"
+    >
+
+      <div class="section-label">
+        05 / MY ROADMAP
       </div>
+
+      <h2>
+        From +2 Science<br>
+        <span>to Space AI &amp; Data Science.</span>
+      </h2>
+
+
+      <div class="roadmap">
+
+
+        <div class="road-item">
+
+          <div class="road-icon">
+            ⌂
+          </div>
+
+          <small>
+            01 · NOW
+          </small>
+
+          <strong>
+            +2 Science
+          </strong>
+
+        </div>
+
+
+        <div class="road-line"></div>
+
+
+        <div class="road-item">
+
+          <div class="road-icon">
+            ⌘
+          </div>
+
+          <small>
+            02 · NEXT
+          </small>
+
+          <strong>
+            Engineering + AI
+          </strong>
+
+        </div>
+
+
+        <div class="road-line"></div>
+
+
+        <div class="road-item">
+
+          <div class="road-icon">
+            ⚛
+          </div>
+
+          <small>
+            03 · FUTURE
+          </small>
+
+          <strong>
+            Research + Projects
+          </strong>
+
+        </div>
+
+
+        <div class="road-line"></div>
+
+
+        <div class="road-item">
+
+          <div class="road-icon">
+            🚀
+          </div>
+
+          <small>
+            04 · LONG TERM
+          </small>
+
+          <strong>
+            Space AI &amp; Data Science
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <p class="road-note">
+        This is a planned academic and career roadmap —
+        not a list of completed stages.
+      </p>
+
     </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section
+      class="section"
+      id="skills"
+    >
+
+      <div class="section-label">
+        06 / SKILLS IN PROGRESS
+      </div>
+
+
+      <div class="skills-grid">
+
+        <div>
+
+          <h2>
+            Learning the tools<br>
+            <span>behind the mission.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="skills">
+
+          <span>Python</span>
+          <span>Machine Learning</span>
+          <span>Data Analysis</span>
+          <span>AI / LLMs</span>
+          <span>Web Development</span>
+          <span>Scientific Data</span>
+          <span>Exoplanet Science</span>
+          <span>Problem Solving</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+      class="section contact"
+      id="contact"
+    >
+
+      <div class="section-label">
+        07 / CONTACT
+      </div>
+
+      <h2>
+        Let's build something<br>
+        <span>worth exploring.</span>
+      </h2>
+
+
+      <div class="contact-row">
+
+        <a href="mailto:your-email@example.com">
+          ✉ your-email@example.com
+        </a>
+
+        <a
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          ◉ GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          in LinkedIn
+        </a>
+
+      </div>
+
+    </section>
+
   </main>
 
-  <footer>© 2026 Amal Thomas · Built with curiosity for the cosmos.</footer>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+    © 2026 Amal Thomas · Built with curiosity for the cosmos.
+  </footer>
+
+
   <script src="script.js"></script>
+
 </body>
 </html>
